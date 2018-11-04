@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 from pymongo import MongoClient
 
-uri = "mongodb://andrey.khuhlin:andrey.khuhlinABT1@ds215093.mlab.com:15093/medbot"
+uri = "mongodb://<>:<>@ds215093.mlab.com:15093/medbot"
 client = MongoClient(uri)
 UL_folder = 'C:/Users/andrey/Documents/Mongo Backend/'
 db = client.medbot
