@@ -5,7 +5,7 @@ import pandas as pd
 from pymongo import MongoClient
 
 # enter user/pwd wo <>
-uri = "mongodb://andrey.khuhlin:andrey.khuhlinABT1@ds215093.mlab.com:15093/medbot"
+uri = "mongodb://:@ds215093.mlab.com:15093/medbot"
 client = MongoClient(uri)
 UL_folder = '/Users/andrew/PycharmProjects/MedBot/'
 db = client.medbot
