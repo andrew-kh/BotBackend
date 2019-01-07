@@ -11,4 +11,4 @@ pymongo scripts
 5. in crontab, insert rule: '\*/3 \* * \* \* /Users/andrew/PycharmProjects/Proj/script.py'
 6. press ESC and type :wq and press ENTER
   
-Now script.py will be executed every 3rd minute
+Now script.py will be executed every 3rd minute*
